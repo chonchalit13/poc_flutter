@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
       },
       initialRoute: "/",
       theme: ThemeData(
+        fontFamily: "SukhumvitSet",
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
