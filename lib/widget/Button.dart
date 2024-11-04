@@ -10,7 +10,15 @@ class Button extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox(
       width: double.infinity,
-      child: ElevatedButton(onPressed: onPressed, child: Text(buttonName)),
+      child: ElevatedButton(
+          onPressed: onPressed,
+          child: Text(
+            buttonName,
+            style: const TextStyle(
+              fontWeight: FontWeight.bold,
+              color: Colors.pink,
+            ),
+          )),
     );
   }
 }
