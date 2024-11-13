@@ -29,7 +29,7 @@ class _GestureDetectorScreenState extends State<GestureDetectorScreen> {
                 const Column(
                   children: [
                     Text(
-                      "พ่องมึง",
+                      "Fuck you",
                       style: TextStyle(
                         color: Colors.redAccent,
                         fontSize: 40,
