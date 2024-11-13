@@ -3,6 +3,8 @@ import 'package:poc_flutter/feature/gesture_detector/gesture_detector_screen.dar
 import 'package:poc_flutter/feature/search/search_screen.dart';
 import 'package:poc_flutter/widget/Button.dart';
 
+import 'feature/absorb_pointer/absorb_pointer_screen.dart';
+import 'feature/dismissible/dismissible_screen.dart';
 import 'feature/gesture_detector/gesture_detector_drag_screen.dart';
 
 void main() {
@@ -20,8 +22,8 @@ class MyApp extends StatelessWidget {
         '/search_screen': (context) => const SearchScreen(),
         '/gesture_detector_screen': (context) => const GestureDetectorScreen(),
         '/gesture_detector_drag_screen': (context) => const GestureDetectorDragScreen(),
-        '/dismissible_screen': (context) => const GestureDetectorScreen(),
-        '/absorb_pointer_screen': (context) => const GestureDetectorScreen(),
+        '/dismissible_screen': (context) => const DismissibleScreen(),
+        '/absorb_pointer_screen': (context) => const AbsorbPointerScreen(),
       },
       initialRoute: "/",
       theme: ThemeData(
