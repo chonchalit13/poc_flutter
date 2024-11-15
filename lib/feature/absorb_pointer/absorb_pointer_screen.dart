@@ -1,13 +1,8 @@
 import 'package:flutter/material.dart';
 
-class AbsorbPointerScreen extends StatefulWidget {
+class AbsorbPointerScreen extends StatelessWidget {
   const AbsorbPointerScreen({super.key});
 
-  @override
-  State<AbsorbPointerScreen> createState() => _AbsorbPointerScreenState();
-}
-
-class _AbsorbPointerScreenState extends State<AbsorbPointerScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
